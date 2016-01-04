@@ -8,7 +8,10 @@ if (movies.length < 1) {
   console.error('Usage: movie-parse "The.Staying.Alive.S05E02.720p.HDTV.x264-KILLERS[rartv]"');
 }
 
+var ptns = [];
+
 movies.forEach(function(movie) {
-    var parse = ptn(movie);
-    console.log(JSON.stringify(parse));
+    ptns.push(ptn(movie));
 });
+
+console.log(JSON.stringify(ptns, null, 2));

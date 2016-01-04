@@ -3,7 +3,7 @@
   "dependencies": {
     "parse-torrent-name": "*"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse torrent movie name",
   "main": "bin/movie-parse",
   "devDependencies": {},

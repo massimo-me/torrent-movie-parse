@@ -1,0 +1,28 @@
+{
+  "name": "movie-parse",
+  "dependencies": {
+    "parse-torrent-name": "*"
+  },
+  "version": "1.0.0",
+  "description": "Parse torrent movie name",
+  "main": "bin/movie-parse",
+  "devDependencies": {},
+  "scripts": {
+    "test": "movie-parse \"The.Staying.Alive.S05E02.720p.HDTV.x264-KILLERS[rartv]\""
+  },
+  "keywords": [
+    "torrent",
+    "movie",
+    "parse",
+    "name",
+    "torrent",
+    "parse",
+    "torrent",
+    "movie",
+    "parse",
+    "movie",
+    "parse"
+  ],
+  "author": "Chiarillo Massimo <hello@massimo.me> (http://chiarillo.massimo.me)",
+  "license": "ISC"
+}

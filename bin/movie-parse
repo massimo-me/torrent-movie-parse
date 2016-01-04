@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var ptn = require('parse-torrent-name');
+
+var movies = process.argv.slice(2);
+
+if (movies.length < 1) {
+  console.error('Usage: movie-parse "The.Staying.Alive.S05E02.720p.HDTV.x264-KILLERS[rartv]"');
+}
+
+movies.forEach(function(movie) {
+    var parse = ptn(movie);
+    console.log(JSON.stringify(parse));
+});

@@ -3,10 +3,15 @@
   "dependencies": {
     "parse-torrent-name": "*"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Parse torrent movie name",
   "bin": {
     "movie-parse": "./bin/movie-parse"
+  },
+  "repository":
+  { 
+    "type" : "git", 
+    "url" : "https://github.com/ChiarilloMassimo/torrent-movie-parse.git"
   },
   "devDependencies": {},
   "scripts": {

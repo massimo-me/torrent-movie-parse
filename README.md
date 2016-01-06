@@ -10,7 +10,7 @@ Usage:
 
 ##API
 
-(http://movie-parse.massimo.me/?movie=The%20Martian%202015%201080p%20BluRay%20x264%20AC3%20ETRG])[http://movie-parse.massimo.me/?movie=The%20Martian%202015%201080p%20BluRay%20x264%20AC3%20ETRG]
+[Test with one movie](http://bit.ly/1SzRGTr)
 
 ```json
 {  
@@ -25,7 +25,7 @@ Usage:
 
 ```
 
-(http://movie-parse.massimo.me/?movie[]=The%20Martian%202015%201080p%20BluRay%20x264%20AC3%20ETRG&movie[]=Mission%20Impossible%20Rogue%20Nation%202015%201080p%20WEB%20DL%20x264%20AC3%20JYK)[http://movie-parse.massimo.me/?movie[]=The%20Martian%202015%201080p%20BluRay%20x264%20AC3%20ETRG&movie[]=Mission%20Impossible%20Rogue%20Nation%202015%201080p%20WEB%20DL%20x264%20AC3%20JYK]
+[Test with more movies](http://bit.ly/1VIMxZ5)
 
 ```json
 [  
